@@ -1,6 +1,6 @@
 # Data structures and Algorithms
 
-##Data Structures and Algorithms(CODING NINJAS, APNA COLLEGE, GRIND 75 and LEETCODE)
+## Data Structures and Algorithms(CODING NINJAS, APNA COLLEGE, GRIND 75 and LEETCODE)
 
 - This repo has question solved from Coding ninjas, Apna college, grind 75 and leetcode.
 
