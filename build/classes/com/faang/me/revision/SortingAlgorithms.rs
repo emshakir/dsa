@@ -1,1 +1,0 @@
-com.faang.revision.SortingAlgorithms
