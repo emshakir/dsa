@@ -20,4 +20,11 @@
     - Adjacency Matrix
     - Edge List
     - 2D \- Matrix(Implicit Graph)
-    
+
+
+## Problems
+
+1. Creating Graph with Adjacent list
+2. Breadth First Search(BFS)
+3. Depth First Search(DFS)
+4. Has Path    
