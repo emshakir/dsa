@@ -36,4 +36,6 @@
 2. Cycle Detection(Un-directed graph)
 3. Bipartite
 4. Cycle Detection(Directed graph)
-5. Topological Sort.
+5. Topological Sort
+6. Topological Sort using BFS(Kahn's Algorithm)
+7. Source to Destination Path
