@@ -24,8 +24,16 @@
 
 
 ## Problems
-#### _As of 13 May 2023_ 
+
+#### _As of 13 May 2023,_ 
 1. Creating Graph with Adjacent list
 2. Breadth First Search(BFS)
 3. Depth First Search(DFS)
 4. Has Path    
+
+#### _As of 14 May 2023,_
+1. Connected components
+2. Cycle Detection(Un-directed graph)
+3. Bipartite
+4. Cycle Detection(Directed graph)
+5. Topological Sort.
