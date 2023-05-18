@@ -39,3 +39,7 @@
 5. Topological Sort
 6. Topological Sort using BFS(Kahn's Algorithm)
 7. Source to Destination Path
+
+#### _As of 18 May 2023,
+1. Bellmans Ford Algorithm.
+2. MST Using Prims Algorithm
