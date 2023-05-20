@@ -43,3 +43,7 @@
 #### _As of 18 May 2023,
 1. Bellmans Ford Algorithm.
 2. MST Using Prims Algorithm
+
+#### _AS of 20 May 2023
+
+1. Cheapest Flight within k stops - there will be a cornor case here 
