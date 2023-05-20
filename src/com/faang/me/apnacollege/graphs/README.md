@@ -46,4 +46,5 @@
 
 #### _AS of 20 May 2023
 
-1. Cheapest Flight within k stops - there will be a cornor case here 
+1. Cheapest Flight within k stops - there will be a cornor case here
+2. Connecting cities with Minimum cost. 

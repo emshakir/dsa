@@ -6,6 +6,7 @@ class CheapestFlight {
 
     public static void main(String[] args) {
         int[][] flights = {{0, 1, 10}, {0, 4, 100}, {1, 2, 20}, {4, 3, 200}, {2, 3, 10}};
+//      int flights[][] = {{0, 1, 1}, {0, 2, 5}, {1, 2, 1}, {2, 3, 1}};
 
         int src = 0;
         int dest = 3;
