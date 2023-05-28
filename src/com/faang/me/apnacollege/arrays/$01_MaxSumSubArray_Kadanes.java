@@ -8,7 +8,7 @@ public class $01_MaxSumSubArray_Kadanes {
 
     // TIME COMPLEXITY - O(n^3) 
     // SPACE COMPLEXITY - O(1)
-    //we neec to optmize, we can use prefix sum concept
+    //we need to optmize, we can use prefix sum concept
     public static int getMaxbrute(int[] a) {
         int maxSum = Integer.MIN_VALUE;
         for (int i = 0; i < a.length; i++) {
@@ -37,6 +37,8 @@ public class $01_MaxSumSubArray_Kadanes {
 
         for (int i = 0; i < a.length; i++) {
             for (int j = i; j < a.length; j++) {
+
+                // already we have calculated prefix sum we will remove 
                 int currSum = (i == 0) ? prefix[j] : prefix[j] - prefix[i - 1];
                 maxSum = Math.max(currSum, maxSum);
             }
@@ -66,8 +68,8 @@ public class $01_MaxSumSubArray_Kadanes {
     public static void main(String[] args) {
 
         int[] a = {1, -2, 6, -1, 3};
-        System.out.println("Maximum Sum Sub Array ::: "+ getMaxSumSubArray(a)); 
-        System.out.println("Maximum Sum Sub Array ::: "+ getMaxPrefix(a)); 
-        System.out.println("Maximum Sum Sub Array ::: "+ getMaxbrute(a)); 
-   }
+        System.out.println("Maximum Sum Sub Array ::: " + getMaxSumSubArray(a));
+        System.out.println("Maximum Sum Sub Array ::: " + getMaxPrefix(a));
+        System.out.println("Maximum Sum Sub Array ::: " + getMaxbrute(a));
+    }
 }

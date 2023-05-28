@@ -1,4 +1,4 @@
-package com.apna_college.linkedlist;
+package com.faang.me.apnacollege.linkedlist;
 
 /**
  * Created By Mohammad Shakir - 15/01/2023
@@ -50,6 +50,7 @@ public class $06_RemoveCycleFromLinkedList {
             }
         }
 
+        // It will also works if cycle exists at head
         if(isCycle){
             slow = head;
             while(slow != fast){

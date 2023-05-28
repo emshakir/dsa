@@ -1,4 +1,4 @@
-package com.apna_college.linkedlist;
+package com.faang.me.apnacollege.linkedlist;
 
 /**
  * Created By Mohammad Shakir - 15/01/2023
@@ -25,8 +25,8 @@ public class $08_MergeSortLinkedList {
         }
         // get Middle node
         Node<Integer> mid = getMiddleNode(head);
-        Node<Integer> right = mid.next;
         Node<Integer> left = head;
+        Node<Integer> right = mid.next;
         mid.next = null;
         Node<Integer> l1 = mergeSort(left);
         Node<Integer> l2 = mergeSort(right);

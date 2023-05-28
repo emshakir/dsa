@@ -10,8 +10,10 @@ public class $02_TrappingRainWater {
 
         int trappedWater = 0;
         int n = a.length;
+        
         // find left maximum and right maximum and store in Auxilary array for every index position
         int[] left = new int[n];
+            
         left[0] = a[0];
         for (int i = 1; i < n; i++) {
             left[i] = Math.max(left[i - 1], a[i]);
@@ -84,31 +86,31 @@ public class $02_TrappingRainWater {
         return totalWater;
     }
 
-    public static int trapped(int[] a) {
+    public static int trapped(int[] height) {
 
         int trappedWater = 0;
         int left = 0;
-        int right = a.length - 1;
+        int right = height.length - 1;
         int maxLeft = Integer.MIN_VALUE;
         int maxRight = Integer.MIN_VALUE;
         // Iterate array using two pointers left and right
         while (left < right) {
             // if left element's height is less than right element traverse from left and increment left
             //else right and decrement right
-            if (a[left] < a[right]) {
+            if (height[left] < height[right]) {
                 // if current height is greater than maxLeft reassign current to max else calculate the trapped water 
-                if (maxLeft < a[left]) {
-                    maxLeft = a[left];
+                if (height[left] > maxLeft) {
+                    maxLeft = height[left];
                 } else {
                     // by subtracting max - current
-                    trappedWater += maxLeft - a[left];
+                    trappedWater += maxLeft - height[left];
                 }
                 left++;
             } else {
-                if (maxRight < a[right]) {
-                    maxRight = a[right];
+                if (height[right] > maxRight) {
+                    maxRight = height[right];
                 } else {
-                    trappedWater += maxRight - a[right];
+                    trappedWater += maxRight - height[right];
                 }
                 right--;
             }

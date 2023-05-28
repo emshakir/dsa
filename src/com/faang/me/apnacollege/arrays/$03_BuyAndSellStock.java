@@ -30,5 +30,4 @@ public class $03_BuyAndSellStock {
         }
         return profit;
     }
-
 }

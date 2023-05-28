@@ -1,4 +1,4 @@
-package com.apna_college.linkedlist;
+package com.faang.me.apnacollege.linkedlist;
 
 /**
  * Created By Mohammad Shakir - 14/01/2023
